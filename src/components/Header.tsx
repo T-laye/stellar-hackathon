@@ -4,7 +4,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { IoIosMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import Logo from "./ui/Logo";
-import Link from "next/link";
 import Button from "./ui/Button";
 
 const Header = () => {
@@ -34,12 +33,12 @@ const Header = () => {
           <ul className="flex items-center gap-10 font-semibold sm:text-lg">
             {["program", "timeline", "mentors"].map((item) => (
               <li key={item} className="relative group">
-                <Link
+                <a
                   href={`/#${item}`}
                   className="capitalize transition-all duration-200 hover:opacity-70 relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0 after:bg-current after:transition-all after:duration-300 group-hover:after:w-full"
                 >
                   {item.charAt(0).toUpperCase() + item.slice(1)}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
@@ -96,14 +95,14 @@ const Header = () => {
                 }`}
                 style={{ transitionDelay: open ? `${i * 60}ms` : "0ms" }}
               >
-                <Link
+                <a
                   href={`/#${item}`}
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-3 py-3.5 px-3 rounded-xl text-gray-800 font-semibold text-base capitalize transition-all duration-200 hover:bg-gray-50 hover:text-primary hover:translate-x-1 group"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-black/50 transition-all duration-200 group-hover:scale-125" />
                   {item.charAt(0).toUpperCase() + item.slice(1)}
-                </Link>
+                </a>
                 {i < 2 && <div className="h-px bg-gray-100 mx-3" />}
               </li>
             ))}

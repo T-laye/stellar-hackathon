@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Button from "./ui/Button";
 
 type FaqProps = {
   que: string;
@@ -79,7 +80,7 @@ const FaqItem = ({ que, ans }: FaqProps) => {
 
 export default function Faq() {
   return (
-    <section className="sm:py-10">
+    <section className="pb-30 sm:pt-10">
       <div className="custom-container max-w-2xl mx-auto">
         {/* <h2 className="mb-10">Frequently asked questions</h2> */}
 
@@ -87,6 +88,17 @@ export default function Faq() {
           {faqs.map((faq, i) => (
             <FaqItem key={i} que={faq.que} ans={faq.ans} />
           ))}
+        </div>
+
+        <div className="mt-20 sm:mt-34.75 flex flex-col items-center">
+          <h1 className="shabo-font text-center text-5xl sm:text-8xl md:text-[115.91px]">
+            Build. Launch. Pitch.
+          </h1>
+          <p className="text-center mt-1 text-sm sm:text-base md:text-xl">
+            Applications close April 20. Join the Q2 Residency Innovation
+            Sprint.
+          </p>
+          <Button className="mt-6">Apply Now</Button>
         </div>
       </div>
     </section>
