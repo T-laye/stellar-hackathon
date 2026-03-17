@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
@@ -12,8 +13,17 @@ export default function Home() {
       <Hero />
       <ProgramOverview />
       <ProgramTrack />
-      <div>
-        <HowItWorks />
+      <HowItWorks />
+      <div className="relative">
+        <div className="absolute h-250 -right-90  -top-210 max-md:hidden">
+          <Image
+            src="/curve-bg.png"
+            alt="component"
+            width={1000}
+            height={1000}
+            className="h-full object-contain"
+          />
+        </div>
         <WhatBuilders />
       </div>
     </div>
