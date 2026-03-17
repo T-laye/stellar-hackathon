@@ -1,7 +1,9 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
 import ProgramOverview from "../components/ProgramOverview";
 import ProgramTrack from "../components/ProgramTrack";
+import WhatBuilders from "../components/WhatBuilders";
 
 export default function Home() {
   return (
@@ -10,6 +12,10 @@ export default function Home() {
       <Hero />
       <ProgramOverview />
       <ProgramTrack />
+      <div>
+        <HowItWorks />
+        <WhatBuilders />
+      </div>
     </div>
   );
 }
