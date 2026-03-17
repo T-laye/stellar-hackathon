@@ -5,6 +5,7 @@ import HowItWorks from "../components/HowItWorks";
 import ProgramOverview from "../components/ProgramOverview";
 import ProgramTrack from "../components/ProgramTrack";
 import WhatBuilders from "../components/WhatBuilders";
+import Mentors from "../components/Mentors";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         </div>
         <WhatBuilders />
       </div>
+        <Mentors />
     </div>
   );
 }
