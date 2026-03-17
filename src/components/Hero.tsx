@@ -11,8 +11,8 @@ export default function Hero() {
             Build the Next <br className="max-xl:hidden" /> Generation of{" "}
             <br className="max-xl:hidden" /> Web3 Products
           </h1>
-          <p className="text-xl text-[#444444] mt-4 max-xl:text-center">
-            A 6-week builder sprint culminating in a 4-day <br /> physical
+          <p className="max-sm:w-3/4 sm:text-xl text-[#444444] mt-4 max-xl:text-center">
+            A 6-week builder sprint culminating in a 4-day <br className="max-sm:hidden" /> physical
             residency and Demo Day.
           </p>
           <div className="flex gap-4 mt-7">
