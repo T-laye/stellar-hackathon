@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <header className="sm:px-4 reltive fixed inset-x-0 z-100" ref={menuRef}>
-      <div className="flex items-center justify-between max-w-350 mx-auto bg-primary/75 backdrop-blur-md sm:rounded-[97px] py-6 md:py-8 pr-8 pl-7 sm:pr-16 sm:mt-8.25 max-h-27.5 transition-all duration-300">
+      <div className="flex items-center justify-between max-w-350 mx-auto bgprimary/75 backdropblurmd sm:rounded-[97px] py-6 md:py-8 pr-8 pl-7 sm:pr-16 sm:mt-8.25 max-h-27.5 transition-all duration-300 frost-bg">
         {/* Logo */}
         <div className="max-sm:-ml-5">
           <Logo />

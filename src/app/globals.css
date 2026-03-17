@@ -52,6 +52,12 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
 }
+.frost-bg {
+  background-image: url("/frosted-glass.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .trans-btn {
   background: #00000003;

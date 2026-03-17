@@ -36,7 +36,7 @@ const ProgramCard = ({ title, desc }: ProgramCardProps) => {
 
 export default function ProgramOverview() {
   return (
-    <section id="program-overview" className="pt-16 sm:pt-20 xl:pt-28 pb-20">
+    <section id="program" className="pt-16 sm:pt-20 xl:pt-28 pb-20">
       <div className="custom-container">
         <h2>Program Overview</h2>
 
