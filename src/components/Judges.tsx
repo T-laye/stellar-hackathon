@@ -1,4 +1,4 @@
-const mentorDetails = [
+const judgesDetails = [
 	{
 		title: "Eugene",
 		desc: "Ecosystem Lead Stellar",
@@ -42,17 +42,17 @@ const mentorDetails = [
 ];
 
 // ✅ Proper props typing
-type MentorCardProps = {
+type JudgeCardProps = {
 	title: string;
 	desc: string;
 	img: string;
 };
 
-const MentorCard = ({ title, desc, img }: MentorCardProps) => {
+const JudgeCard = ({ title, desc, img }: JudgeCardProps) => {
 	return (
 		<div
 			style={{
-				backgroundImage: `linear-gradient(to top, #FFDA00, transparent, transparent, transparent), url(${img})`,
+				backgroundImage: `linear-gradient(to top, #B0A4EB, transparent, transparent, transparent), url(${img})`,
 				backgroundSize: "cover",
 				backgroundPosition: "center",
 			}}
@@ -63,14 +63,14 @@ const MentorCard = ({ title, desc, img }: MentorCardProps) => {
 		</div>
 	);
 };
-export default function Mentors() {
+export default function Judges() {
 	return (
-		<section id="mentors" className="pt-20 sm:pt-28 pb-20">
+		<section id="judges" className="pt-20 sm:pt-28 pb-20">
 			<div className="custom-container">
-				<h2>Meet The Mentors</h2>
+				<h2>Meet The Judges</h2>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 rounded-2xl mt-20 ">
-					{mentorDetails.map((p, i) => (
-						<MentorCard key={i} title={p.title} desc={p.desc} img={p.img} />
+					{judgesDetails.map((p, i) => (
+						<JudgeCard key={i} title={p.title} desc={p.desc} img={p.img} />
 					))}
 				</div>
 			</div>

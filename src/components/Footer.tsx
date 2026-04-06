@@ -17,6 +17,9 @@ export default function Footer() {
               <a href="#timeline">Timeline</a>
             </li>
             <li>
+              <a href="#judges">Judges</a>
+            </li>
+            <li>
               <a href="#mentors">Mentors</a>
             </li>
           </ul>

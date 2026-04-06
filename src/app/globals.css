@@ -2,73 +2,88 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "SCHABO Condensed";
-  font-style: normal;
-  font-weight: normal;
-  src:
-    local("SCHABO Condensed"),
-    url("/SCHABO-Condensed.woff") format("woff");
+	font-family: "SCHABO Condensed";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local("SCHABO Condensed"),
+		url("/SCHABO-Condensed.woff") format("woff");
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #000000;
-  --accent: #ffda00;
-  --primary: #b0a4eb;
+	--background: #0f0f0f;
+	--foreground: #ffffff;
+	--accent: #ffda00;
+	--primary: #b0a4eb;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-accent: var(--accent);
-  --color-primary: var(--primary);
-  --font-sans: var(--font-inter-sans);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-accent: var(--accent);
+	--color-primary: var(--primary);
+	--font-sans: var(--font-inter-sans);
 }
 
 html {
-  scroll-behavior: smooth;
-  /* overflow-x: hidden; */
+	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
-  /* overflow-x: hidden; */
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
+	overflow-x: hidden;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-sans);
 }
 
 h2 {
-  @apply text-3xl sm:text-4xl font-semibold text-center;
+	@apply text-3xl sm:text-4xl font-semibold text-center;
 }
 
 .shabo-font {
-  font-family: "SCHABO Condensed", sans-serif;
-  letter-spacing: 1px;
+	font-family: "SCHABO Condensed", sans-serif;
+	letter-spacing: 1px;
 }
 
 .custom-container {
-  max-width: 1300px;
-  margin: 0 auto;
-  @apply px-4 sm:px-8;
+	max-width: 1300px;
+	margin: 0 auto;
+	@apply px-4 sm:px-8;
 }
 
 .hero-bg {
-  background-image: url("/hero-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+	background-image: url("/new-hero-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top start;
 }
 .frost-bg {
-  background-image: url("/frosted-glass.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+	background-image: url("/frosted-glass.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
+.trans-btn-header {
+	background: #141414;
+	box-shadow:
+		2px 2px 2px 0px #00000040 inset,
+		-2px -1px 2px 0px #00000038 inset;
+
+	backdrop-filter: blur(4px);
+}
 .trans-btn {
-  background: #00000003;
-  box-shadow:
-    2.12px 2.12px 2.12px 0px #00000040 inset,
-    -2.12px -1.06px 2.12px 0px #00000038 inset;
-  backdrop-filter: blur(4.234680652618408px);
+	/* background: #00000003; */
+	box-shadow:
+		2.12px 2.12px 2.12px 0px #00000040 inset,
+		-2.12px -1.06px 2.12px 0px #00000038 inset;
+	backdrop-filter: blur(4.234680652618408px);
+}
+.trans-btn-sec {
+	box-shadow:
+		2.12px 2.12px 2.12px 0px #ffffff40 inset,
+		-2.12px -1.06px 2.12px 0px #ffffff38 inset;
+
+	backdrop-filter: blur(4.234680652618408px);
 }
