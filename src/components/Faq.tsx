@@ -10,39 +10,19 @@ type FaqProps = {
 const faqs: FaqProps[] = [
 	{
 		que: "Who can apply?",
-		ans: "Developers, designers, product managers, and Web3 builders can apply as teams of up to three members. Individual applications are not accepted.",
+		ans: "Developers, designers, product managers, and Web3 builders — as individuals or teams (max 3).",
 	},
 	{
-		que: "When and where is the event taking place?",
-		ans: "",
+		que: "Can I apply alone?",
+		ans: "Yes. Solo builders are welcome.",
 	},
 	{
-		que: "Do I need a completed project to apply?",
-		ans: "",
+		que: "Is this program virtual or physical?",
+		ans: "The build sprint is virtual. The Build Weekend is physical.",
 	},
 	{
-		que: "How many teams are selected?",
-		ans: "20 teams are selected to participate in the Virtual Build Sprint, and the top 5 teams advance to the in‑person residency.",
-	},
-	{
-		que: "How do I register?",
-		ans: "You can register here. Or scroll up to the register button at top right of the website.",
-	},
-	{
-		que: "Is the residency in person?",
-		ans: "",
-	},
-	{
-		que: "What do teams need to submit?",
-		ans: "At the end of the Build Sprint, teams submit a working MVP, product demo or GitHub repository, and a short pitch deck.",
-	},
-	{
-		que: "What happens on Demo Day?",
-		ans: "Teams present a 5‑minute pitch followed by a 3‑minute Q&A with judges. Winners are announced after the final scoring session.",
-	},
-	{
-		que: "Who’s organizing this?",
-		ans: "",
+		que: "Is this part of another program?",
+		ans: "No. This is a standalone innovation sprint.",
 	},
 ];
 
