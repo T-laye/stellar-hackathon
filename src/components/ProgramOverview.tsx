@@ -52,7 +52,7 @@ export default function ProgramOverview() {
 				</p>
 
 				{/* ✅ Improved grid responsiveness */}
-				<div className="flex justify-center gap-5 mt-14">
+				<div className="flex justify-center gap-5 mt-14 flex-wrap">
 					{programDetails.map((p, i) => (
 						<ProgramCard key={i} title={p.title} desc={p.desc} />
 					))}
