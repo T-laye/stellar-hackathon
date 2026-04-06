@@ -56,7 +56,7 @@ h2 {
 	background-image: url("/new-hero-bg.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top start;
+	background-position: center;
 }
 .frost-bg {
 	background-image: url("/frosted-glass.png");
