@@ -17,10 +17,19 @@ export default function Hero() {
 						focused 3-day in-person Build Weekend co-working residency.
 					</p>
 					<div className="flex gap-4 mt-7">
-						<Button className="trans-btn">Apply Now</Button>
-						<Button className="" variant="outline">
-							Learn More
-						</Button>
+						<a
+							href="https://docs.google.com/forms/d/1dNuVvbgem1lUEmENZtUCU46BxE-fZwVGpCwbx4S0d78/viewform?edit_requested=true" target="_blank"
+						>
+							<Button className="trans-btn">Apply Now</Button>
+						</a>
+						<a
+							href="https://medium.com/@levaiagbara/stellar-wa-build-weekend-residency-the-builders-complete-guide-aa78361af612"
+							target="_blank"
+						>
+							<Button className="" variant="outline">
+								Learn More
+							</Button>
+						</a>
 					</div>
 				</div>
 				{/* <div className="flex flex-col max-md:items-center lg:w-2/3">

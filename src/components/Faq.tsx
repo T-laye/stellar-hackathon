@@ -98,7 +98,12 @@ export default function Faq() {
 						Applications close April 20. Join the Q2 Residency Innovation
 						Sprint.
 					</p>
-					<Button className="mt-6">Apply Now</Button>
+					<a
+						href="https://docs.google.com/forms/d/1dNuVvbgem1lUEmENZtUCU46BxE-fZwVGpCwbx4S0d78/viewform?edit_requested=true"
+						target="_blank"
+					>
+						<Button className="mt-6">Apply Now</Button>
+					</a>
 				</div>
 			</div>
 		</section>

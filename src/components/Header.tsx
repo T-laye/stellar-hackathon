@@ -46,9 +46,14 @@ const Header = () => {
 
 				{/* Actions */}
 				<div className="flex items-center gap-4">
-					<Button className="whitespace-nowrap max-md:hidden -mr-10 ml-2 trans-btn-header text-white">
-						Apply Now
-					</Button>
+					<a
+						href="https://docs.google.com/forms/d/1dNuVvbgem1lUEmENZtUCU46BxE-fZwVGpCwbx4S0d78/viewform?edit_requested=true"
+						target="_blank"
+					>
+						<Button className="whitespace-nowrap max-md:hidden -mr-10 ml-2 trans-btn-header text-white">
+							Apply Now
+						</Button>
+					</a>
 
 					{/* Mobile Menu Button */}
 					<button
@@ -110,14 +115,16 @@ const Header = () => {
 						))}
 
 						{/* Apply CTA */}
-						<li
+						<a
+							href="https://docs.google.com/forms/d/1dNuVvbgem1lUEmENZtUCU46BxE-fZwVGpCwbx4S0d78/viewform?edit_requested=true"
+							target="_blank"
 							className={`transition-all duration-300 mt-2 mb-1 ${
 								open ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-3"
 							}`}
 							style={{ transitionDelay: open ? "180ms" : "0ms" }}
 						>
 							<Button className="w-full">Apply Now</Button>
-						</li>
+						</a>
 					</ul>
 				</div>
 			</div>
