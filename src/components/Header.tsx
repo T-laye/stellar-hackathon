@@ -31,7 +31,7 @@ const Header = () => {
 				{/* Desktop Nav */}
 				<nav className="hidden md:block">
 					<ul className="flex items-center gap-10 font-semibold sm:text-lg">
-						{["program", "timeline", "judges", "mentors"].map((item) => (
+						{["program", "timeline"].map((item) => (
 							<li key={item} className="relative group">
 								<a
 									href={`/#${item}`}
@@ -92,7 +92,7 @@ const Header = () => {
 					<div className="h-0.5 w-full bg-linear-tor from-primary via-primary/70 to-transparent" />
 
 					<ul className="flex flex-col px-4 py-3">
-						{["program", "timeline", "judges", "mentors"].map((item, i) => (
+						{["program", "timeline"].map((item, i) => (
 							<li
 								key={item}
 								className={`transition-all duration-300 ${

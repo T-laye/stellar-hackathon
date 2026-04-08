@@ -16,12 +16,12 @@ export default function Footer() {
             <li>
               <a href="#timeline">Timeline</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#judges">Judges</a>
             </li>
             <li>
               <a href="#mentors">Mentors</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div className="flex gap-2">
