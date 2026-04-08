@@ -9,11 +9,11 @@ const programTrackDetails = [
 	},
 	{
 		title: "Agentic AI Track ",
-		desc: "Create blockchain games using the Stellar Game Studio toolkit and build on‑chain game economies.",
+		desc: "Covers building autonomous agents on Stellar",
 	},
 	{
-		title: "Open Track",
-		desc: "Create blockchain games using the Stellar Game Studio toolkit and build on‑chain game economies.",
+		title: "Open Integration Track",
+		desc: "Focuses on integrating Stellar into innovative and novel use cases. Think hardware, IoT, or anywhere we haven’t seen Stellar dominate yet.",
 	},
 ];
 
