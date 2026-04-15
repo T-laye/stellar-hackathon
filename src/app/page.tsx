@@ -5,10 +5,10 @@ import HowItWorks from "../components/HowItWorks";
 import ProgramOverview from "../components/ProgramOverview";
 import ProgramTrack from "../components/ProgramTrack";
 import WhatBuilders from "../components/WhatBuilders";
-// import Mentors from "../components/Mentors";
+import Mentors from "../components/Mentors";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
-// import Judges from "../components/Judges";
+import Judges from "../components/Judges";
 
 export default function Home() {
   return (
@@ -30,8 +30,8 @@ export default function Home() {
         </div>
       </div> */}
         <WhatBuilders />
-        {/* <Judges /> */}
-        {/* <Mentors /> */}
+        <Judges />
+        <Mentors />
         <Faq />
         <Footer />
     </div>
